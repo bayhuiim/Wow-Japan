@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page tag title -->
+    <title>WOW! JAPAN</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <!-- FontAwesome; code after any Themes and Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+
+    <!-- Customise CSS; code as the last item -->
+    <link href="css/jquery-sakura.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+    <!-- OUTLINER for development purposes Only - To be commented out for Production releases -->
+    <style type="text/css">
+        /* body{border: 2px solid blue;} */
+
+        /* .container{border: 2px solid green;} */
+
+        /* .jumbotron{border: 3px solid purple;} */
+
+        /* .row{border: 2px dotted red;} */
+
+        /* .row[class*='col-']{border: 3px solid purple;} */
+
+        /* .show{border: 3px solid purple;} */
+    </style>
+</head>
+
+<body>
+    <!-- Top Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://wow-j.com/en/" target="_blank">
+            <img src="image/logo-waoh.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Destinations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#Destination">Tokyo</a>
+                        <a class="dropdown-item" href="#Destination">Osaka</a>
+                        <a class="dropdown-item" href="#Destination">Kyoto</a>
+                        <a class="dropdown-item" href="#Destination">Shirakawa</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Video">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Food">Food</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Follow Us">Follow Us</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="Destination">
+        <!-- <div class="video-container row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+
+                <div class="video-parallax" style="position: fixed; z-index: -99; width: 100%; height: 100%">
+                    <iframe frameborder="0" height="100%" width="100%" src="https://www.youtube.com/embed/GpkYLIlpGWk?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1">
+                    </iframe>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-xs-12
+                            col-sm-12
+                            col-md-12
+                            col-lg-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Destination</h1>
+                        <p class="lead">Check out WOW! JAPAN for information on popular sights!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12" show>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner carousel-height">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="image/Tokyo.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/Osaka.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/Kyoto.jpg" alt="Third slide">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/Shirakawago.jpg" alt="Fourth slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12
+                            col-sm-12
+                            col-md-12
+                            col-lg-12">
+                <div class="jumbotron jumbotron-fluid" id="Video">
+                    <div class="container">
+                        <h1 class="display-4">Video</h1>
+                        <p class="lead">Check out WOW! JAPAN for information on popular sights!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GpkYLIlpGWk?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12
+                                col-sm-12
+                                col-md-12
+                                col-lg-12">
+                <div class="jumbotron jumbotron-fluid" id="Food">
+                    <div class="container">
+                        <h1 class="display-4">Food</h1>
+                        <p class="lead">Check out WOW! JAPAN for information on popular food!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-xs-12
+                    col-sm-3
+                    col-md-3
+                    col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/sushi.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Sushi</h3>
+                        <p>Sushi is the Japanese preparation and serving of specially prepared vinegared rice combined with
+                            varied ingredients such as chiefly seafood, vegetables, and occasionally tropical fruits.</p>
+                        <a href="http://www.tsunagujapan.com/20-must-go-sushi-restaurants-in-sapporo-hokkaido/" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-xs-12
+                    col-sm-3
+                    col-md-3
+                    col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/ramen.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Ramen</h3>
+                        <p>Ramen is a Japanese dish. It consists of Chinese-style wheat noodles served in a meat or fish-based
+                            broth, often flavored with soy sauce or miso, and uses toppings such as sliced pork, dried seaweed,
+                            menma, and green onions.</p>
+                        <a href="http://www.tsunagujapan.com/the-tokyos-top-10-ramen-restaurants-chosen-by-ramen-experts-in-japan/" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-xs-12
+                    col-sm-3
+                    col-md-3
+                    col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/omurice.png" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Omurice</h3>
+                        <p>Omurice or omu-rice is an example of yōshoku consisting of an omelette made with fried rice and usually
+                            topped with ketchup. With omu and raisu being contractions of the words omelette and rice, the
+                            name is an example of Gairaigo. </p>
+                        <a href="https://hubjapan.io/articles/10-best-omurice-in-tokyo-that-will-blow-you-away" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-xs-12
+            col-sm-3
+            col-md-3
+            col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/tempura.png" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Tempura</h3>
+                        <p>Tempura is a classical Portuguese dish brought to and popularized by Japan, consisting of seafood
+                            or vegetables that have been battered and deep fried.</p>
+                        <a href="https://savorjapan.com/contents/more-to-savor/best-tempura-in-tokyo-13-bastions-of-golden-fried-goodness/" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-xs-12
+                    col-sm-3
+                    col-md-3
+                    col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/Shabu-Shabu.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Shabu-Shabu</h3>
+                        <p>Shabu-shabu is a Japanese nabemono hotpot dish of thinly sliced meat and vegetables boiled in water.
+                            The term is onomatopoeic, derived from the sound emitted when the ingredients are stirred in
+                            the cooking pot and served with dipping sauces.</p>
+                        <a href="https://hubjapan.io/articles/top-10-tokyo-shabu-shabu-shops-that-make-you-want-more" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-xs-12
+            col-sm-3
+            col-md-3
+            col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/Jpn-curry.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Japanese Curry</h3>
+                        <p>Curry is one of the most popular dishes in Japan. It is commonly served in three main forms: curry
+                            rice, curry udon, and curry bread. Curry rice is most commonly referred to simply as "curry".
+                        </p>
+                        <a href="https://www.japan-guide.com/e/e2351.html" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+
+            <div class="col-xs-12
+                        col-sm-3
+                        col-md-3
+                        col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/okonomiyaki.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Okonomiyaki</h3>
+                        <p>Okonomiyaki is a Japanese savory pancake containing a variety of ingredients. The name is derived
+                            from the word okonomi, meaning "how you like" or "what you like", and yaki meaning "grill".</p>
+                        <a href="http://www.tsunagujapan.com/7-great-okonomiyaki-restaurants-in-the-food-capital-osaka/" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-xs-12
+                    col-sm-3
+                    col-md-3
+                    col-lg-3 show">
+
+                <div class="img-thumbnail">
+                    <img src="image/takoyaki.jpeg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Takoyaki</h3>
+                        <p>Takoyaki is a ball-shaped Japanese snack made of a wheat flour-based batter and cooked in a special
+                            molded pan. It is typically filled with minced or diced octopus, tempura scraps, pickled ginger,
+                            and green onion.
+                        </p>
+                        <a href="http://www.tsunagujapan.com/top-8-takoyaki-shops-to-make-your-osaka-experience-complete/" class="btn-info btn-primary btn-sm">Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12
+                            col-sm-12
+                            col-md-12
+                            col-lg-12">
+                <div class="jumbotron jumbotron-fluid" id="Follow Us">
+                    <div class="container">
+                        <h1 class="display-4">Follow Us</h1>
+                        <p class="lead">Sign in and subscribe for the latest Japan news and updates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <!-- Row4 Col1of2: Form -->
+            <div class="col-xs-12
+                            col-sm-4
+                            col-md-4
+                            col-lg-4 show">
+                <!-- Form -->
+                <div class="card card-default">
+                    <div class="card-body">
+                        <!-- Form Registration -->
+                        <form action="https://script.google.com/macros/s/AKfycbwzW3UDbww6hxcaCx7cdTO4xzhSalWs06jC84Av19C4o9VLKNY/exec" 
+                            method="post">
+
+                            <legend class="card-header">Sign up</legend>
+                            <br>
+                            <div class="form-group">
+                                <label for="name-id">Name: </label>
+                                <input type="text" name="NAME" id="name-id" placeholder="frank lee" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-id">Email: </label>
+                                <input type="email" name="EMAIL" id="email-id" placeholder="franklee@email.com" class="form-control" required>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary">
+                            </div>
+                            <!-- <div class="form-group">
+                                <button type="submit" class="btn btn-primary my-btn form-control" id="submit-id">submit</button>                   
+                                <hr>
+                                <div class="alert alert-danger alert-dismissible fadeIn" id="alert-id" hidden>
+                                    <button type="button" class="close" id="close-id"><span>&times;</span></button>
+                                    Thank you! I will get in touch.
+                                </div>
+                            </div> -->
+                        </form>
+                        <!-- end of Form Registration -->
+                    </div>
+                </div><br>
+                <br>
+            </div>
+            <div class="col-xs-12
+            col-sm-4
+            col-md-4
+            col-lg-4
+            text-center show">
+                <h1>Operating hours</h1>
+                <table class="table">
+
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday to Friday</td>
+                        <td>9am - 5pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9am - 12pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>closed</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- ROW5 Col2: Map -->
+            <div class="col-xs-12
+          col-sm-4
+          col-md-4
+          col-lg-4 show">
+                <!-- Embed Map -->
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103655.66788809256!2d139.7470502194777!3d35.72032495517678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1060d67af%3A0x7740294b7ef17d49!2sAsakusa+Culture+Tourist+Information+Center!5e0!3m2!1sen!2ssg!4v1516866390194"
+                        class="embed-responsive-item"></iframe>
+                </div>
+                <br>
+            </div>
+            <!-- end of ROW5 Col2: Map -->
+
+        </div>
+        <br>
+        
+        <div class="row">
+            <div class="col-xs-12
+                    col-sm-6
+                    col-md-6
+                    col-lg-6
+                    text-center show">
+                <h1>Weather Forecast</h1>
+                <hr>
+                <p>Get the latest Tokyo weather forecast here.</p>
+                <a target="_blank" href="http://www.booked.net/weather/tokyo-18247">
+                    <img src="https://w.bookcdn.com/weather/picture/32_18247_1_1_c55a99_250_bf428c_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=w209&anc_id=96682"
+                        alt="booked.net" />
+                </a>
+
+                <a target="_blank" href="http://www.booked.net/weather/osaka-18242">
+                    <img src="https://w.bookcdn.com/weather/picture/32_18242_1_1_f1c411_250_f39c13_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=w209&anc_id=96682"
+                        alt="booked.net" />
+                </a>
+
+                <a target="_blank" href="http://www.booked.net/weather/kyoto-18232">
+                    <img src="https://w.bookcdn.com/weather/picture/32_18232_1_1_3498db_250_2980b9_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=w209&anc_id=96682"
+                        alt="booked.net" />
+                </a>
+
+            </div>
+
+            <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6
+            text-center show">
+            <div class="my-container">
+                <img src="image/kimono.jpg" alt="logo" class="my-face">
+                <h1>Bay</h1>
+                <hr class="my-hr">
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fa-li fa fa-phone"></i>
+                        <a href="tel:+656603702" class="my-link">+65 66037022 </a>
+                    </li>
+        
+                    <li>
+                        <i class="fa-li fa fa-envelope"></i>
+                        <a href="mailto:bay@email.com" class="my-link">bay@email.com </a>
+                    </li>
+        
+                    <li>
+                        <i class="fa-li fa fa-home"></i>
+                        <a href="https://goo.gl/maps/ZTmZfkuLmBN2" target="_blank" class="my-link">6 Tampines Industrial Ave 5 </a>
+                    </li>
+                </ul>
+        
+            </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12
+                            col-sm-12
+                            col-md-12
+                            col-lg-12 text-center">
+                <ul class="list-inline wow shake infinite">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     
+    </div>
+
+
+    JavaScript - jQuery first, follows by tether.js, Popper.js, then Bootstrap JS in sequence
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="javascript/jquery-sakura.js"></script>
+    <script src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+
+    <!-- Customise JavaScript -->
+    <!-- <script src="javascript/javascript.js"></script> -->
+  
+
+    <script>
+        $('.carousel').carousel({
+            interval: 500
+        })
+        new WOW().init();
+    </script>
+    <script src="javascript/jquery-sakura.js"></script>
+    <script>
+        $(window).load(function () {
+            $('body').sakura();
+        });
+    </script>
+</body>
+
+</html>

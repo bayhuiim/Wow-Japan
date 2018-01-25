@@ -1,0 +1,158 @@
+/* 
+    IBM In-house {Web Coder} course Assignment Snippet.
+    CSS styling slave file.
+    For internal IBM learning usage.
+*/
+
+
+/*  ----- HTML Body Styles -----  */
+body {
+  /* Position: relative; */
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  background-color: white;
+  /* Padding for top navbar fixed  */
+  padding-top: 75px; 
+}
+html {
+  color: rgb(248, 207, 214);
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold
+  height: 100%;
+  box-sizing: border-box;
+  }
+
+  nav > a > img {
+    height: 22px;
+  }
+
+ p{
+   font-weight: bold;
+   color:lightslategrey;
+ }
+  
+  /* Responsive typography */
+  /* 
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 28px;
+    } 
+  */
+
+
+  h1 {
+    color: rgb(255, 170, 184);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 10px;
+  }
+
+  .carousel-height{
+    height: 46em;
+  }
+  
+  .jumbotron{
+    background-image: url("../image/fuji.jpg");
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+
+
+  .video-container {
+    height: 600px;
+}
+
+  /* .video-parallax {
+    -webkit-transition-position: fixed;
+    position: fixed;
+    } */
+   
+.weather_forecast{
+  background-color: rgb(252, 210, 210);
+  width: 30%; 
+}
+
+.card-header{
+  color: pink
+}
+.my-container{
+	border: 1px solid #aaa;
+	background-color: white;
+	max-width: 400px;
+	margin: 110px auto 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	font-family: "Lato";
+}
+.my-container h1{
+	text-align: center;
+}
+.my-container ul{
+	max-width: 200px;
+	margin: auto;
+}
+.my-hr{
+	max-width: 300px;
+	border: 10px solid rgb(255, 170, 184);
+}
+.my-face{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto; 
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	margin-top: -100px;
+}
+  /* Box-sizing */
+  .selector-for-some-widget {
+      box-sizing: content-box;
+  }
+
+ 
+  /* LAYOUT - Responsive breakpoints */
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575px) {  
+
+  }
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {  
+
+  }
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {  
+
+  }
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {  
+      
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+
+  }
+
+
