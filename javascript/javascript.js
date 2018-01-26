@@ -54,15 +54,15 @@ $(function () {
     });
 
     // RESPONSE ALERT WINDOW-------------------------------------------------------------------------------
-    /* include the following HTML to use:
-    <div class="form-group">
-        <button type="submit" class="btn btn-default my-btn form-control" id="submit-id">submit</button>                   
-        <div class="alert alert-danger alert-dismissible fade-in" id="alert-id" hidden>
-            <button type="button" class="close" id="close-id"><span>&times;</span></button>
-            Thank you! I will get in touch.
-        </div>
-    </div>
-    */
+    // include the following HTML to use:
+    // <div class="form-group">
+    //     <button type="submit" class="btn btn-default my-btn form-control" id="submit-id">submit</button>                   
+    //     <div class="alert alert-danger alert-dismissible fade-in" id="alert-id" hidden>
+    //         <button type="button" class="close" id="close-id"><span>&times;</span></button>
+    //         Thank you! I will get in touch.
+    //     </div>
+    
+    
 
     // on clicking the X button
     $('#close-id').click(function () {
